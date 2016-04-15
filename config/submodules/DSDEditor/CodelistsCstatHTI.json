@@ -63,9 +63,9 @@
     "subject": "indicator"
   },
   {
-    "value": "CountrySTAT_HS|2012",
+    "value": "CountrySTAT_HS|full",
     "text": {
-      "EN": "HS 2012"
+      "EN": "HS Full"
     },
     "subject": "item"
   },
@@ -75,5 +75,19 @@
       "EN": "CountrySTAT UM"
     },
     "subject": "um"
+  },
+  {
+    "value": "CountrySTAT_Fishery_products",
+    "text": {
+      "EN": "Fishery products"
+    },
+    "subject": "item"
+  },
+  {
+    "value": "CountrySTAT_Forest_products",
+    "text": {
+      "EN": "Forest products"
+    },
+    "subject": "item"
   }
 ]
