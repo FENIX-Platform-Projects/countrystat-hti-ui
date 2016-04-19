@@ -5494,68 +5494,6 @@ fieldset {
   fieldset .fx-fieldset-subtitle label {
     font-size: 12px; }
 
-/* Fenix Filter Tab */
-[data-plugin="filter"] .btn {
-  width: 150px; }
-[data-plugin="filter"] .fx-catalog-modular-form-holder {
-  border-color: transparent;
-  position: relative; }
-  [data-plugin="filter"] .fx-catalog-modular-form-holder:before {
-    content: '';
-    height: 1px;
-    width: calc(100% + 30px);
-    display: block;
-    background-color: #dddddd;
-    position: relative;
-    top: -13px;
-    left: -23px; }
-[data-plugin="filter"] .jstree-holder {
-  height: 100px; }
-[data-plugin="filter"] .fx-catalog-modular-form-label {
-  font-size: 14px;
-  left: 0; }
-[data-plugin="filter"] input[type="search"] {
-  -moz-border-radius-topleft: 0;
-  -webkit-border-top-left-radius: 0;
-  border-top-left-radius: 0;
-  -moz-border-radius-topright: 0;
-  -webkit-border-top-right-radius: 0;
-  border-top-right-radius: 0;
-  -moz-border-radius-bottomright: 0;
-  -webkit-border-bottom-right-radius: 0;
-  border-bottom-right-radius: 0;
-  -moz-border-radius-bottomleft: 0;
-  -webkit-border-bottom-left-radius: 0;
-  border-bottom-left-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-  height: 20px;
-  margin-bottom: 3px;
-  position: absolute;
-  top: -27px;
-  width: 70%;
-  right: 25px;
-  background-color: transparent;
-  border: 1px solid #d8d8d8; }
-[data-plugin="filter"] form {
-  position: relative; }
-  [data-plugin="filter"] form:before {
-    content: "\e003";
-    font-family: 'Glyphicons Halflings';
-    position: absolute;
-    top: -23px;
-    left: calc(100% - 17px);
-    display: inline-block;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    color: #d8d8d8; }
-[data-plugin="filter"] .fx-filter-form-module.fit {
-  width: 100%; }
-
 .inside-full-height {
   /*
   // if you want to give content full height give him height: 100%;
@@ -5705,57 +5643,6 @@ legend {
   legend label {
     font-size: 12px;
     cursor: pointer; }
-
-/* Metadata Viewer */
-.fx-md-viewer-wrapper {
-  font-size: 12px; }
-  .fx-md-viewer-wrapper .fx-md-viewer-title {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 18px; }
-  .fx-md-viewer-wrapper .fx-md-viewer-container {
-    width: 100%; }
-  .fx-md-viewer-wrapper th, .fx-md-viewer-wrapper td {
-    border-bottom: 1px solid #e5e5e5;
-    height: 25px;
-    padding: 5px 0; }
-  .fx-md-viewer-wrapper .treegrid-expander {
-    top: 3px;
-    cursor: pointer; }
-  .fx-md-viewer-wrapper .metadata-viewer-title {
-    width: 30%;
-    font-size: 12px;
-    font: normal normal 300 12px/normal "Roboto";
-    font-weight: 500;
-    padding-right: 25px;
-    cursor: pointer; }
-    .fx-md-viewer-wrapper .metadata-viewer-title .fx-md-viewer-description {
-      top: 3px;
-      cursor: pointer;
-      opacity: 0;
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -ms-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s; }
-    .fx-md-viewer-wrapper .metadata-viewer-title:hover .fx-md-viewer-description {
-      opacity: 1;
-      -webkit-transition: all 0.3s ease 0s;
-      -moz-transition: all 0.3s ease 0s;
-      -ms-transition: all 0.3s ease 0s;
-      -o-transition: all 0.3s ease 0s;
-      transition: all 0.3s ease 0s; }
-  .fx-md-viewer-wrapper .metadata-viewer-value {
-    width: 70%;
-    font: normal normal 300 12px/normal "Roboto";
-    font-size: 12px; }
-  .fx-md-viewer-wrapper .popover-title {
-    background-color: transparent;
-    font: normal normal 300 12px/normal "Roboto"; }
-    .fx-md-viewer-wrapper .popover-title .text-info {
-      color: #db514b; }
-  .fx-md-viewer-wrapper .popover-content {
-    font: normal normal 300 12px/normal "Roboto"; }
 
 /* Fenix - Modular Form Component */
 .fx-catalog-modular-form-holder {
@@ -7427,10 +7314,10 @@ input[type="checkbox"]:checked + label {
 
 /* Afghanistan Home */
 .country-welcome {
-  background-color: #e4c779; }
+  background-color: #92a1ca; }
 
 .country-details {
-  background-image: url(img/zam-home.jpg);
+  background-image: url(img/hai-home.jpg);
   background-size: cover;
   background-position: 50% 50%; }
 
@@ -7447,7 +7334,7 @@ input[type="checkbox"]:checked + label {
     top: -5px; }
 
 .home-content {
-  background-color: #2b686a; }
+  background-color: #5b3b3a; }
   .home-content .home-tile {
     padding: 20px 15px;
     position: relative;
@@ -7464,7 +7351,7 @@ input[type="checkbox"]:checked + label {
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: #f5e5bb; }
+    background-color: #c9d1e7; }
     .home-content .home-detail-pointer:before {
       content: '';
       position: absolute;
@@ -7475,7 +7362,7 @@ input[type="checkbox"]:checked + label {
       height: 0;
       border-style: solid;
       border-width: 13.5px 0 13.5px 17px;
-      border-color: transparent transparent transparent #f5e5bb; }
+      border-color: transparent transparent transparent #c9d1e7; }
     .home-content .home-detail-pointer .afg-title {
       position: absolute;
       top: 50%;
@@ -7542,11 +7429,11 @@ input[type="checkbox"]:checked + label {
       top: 0; }
 
 .partners-holder {
-  background-color: #e0f1ee;
+  background-color: #ede4e6;
   min-height: 100px; }
   .partners-holder h4 {
     font-size: 14px;
-    color: #abb9c4; }
+    color: #a68f8f; }
   .partners-holder .partner-holder {
     text-align: center; }
 
@@ -7562,7 +7449,7 @@ ol li {
 ol li:before {
   counter-increment: numList;
   content: counter(numList);
-  color: #b8d7da;
+  color: #d2c2c0;
   font-weight: 700;
   font-size: 36px;
   position: absolute;
@@ -7574,7 +7461,7 @@ ol li:before {
   height: 20px; }
 
 .home-tile.gray {
-  background-color: #869c93;
+  background-color: #978b90;
   position: relative; }
   .home-tile.gray .news-content {
     position: absolute;
@@ -7608,7 +7495,7 @@ ol li:before {
     font-size: 30px;
     padding: 0; }
   .home-tile.gray .news-image {
-    background-image: url(img/zam-working-group.jpg);
+    background-image: url(img/hai-working-group.jpg);
     background-size: cover;
     background-position: 50% 50%;
     height: 50%;
@@ -7618,9 +7505,9 @@ ol li:before {
     left: 0; }
 
 .home-tile.map {
-  background-color: #97bead;
+  background-color: #b4a0a9;
   position: relative;
-  background-image: url("img/home-map-zambia.svg");
+  background-image: url("img/home-map-hai.svg");
   background-size: 570px 371px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -7630,14 +7517,14 @@ ol li:before {
   transition: all 1s ease; }
   .home-tile.map:hover {
     background-size: 1600px 1035px;
-    background-position: 50% 76%;
+    background-position: 19% 75%;
     -webkit-transition: all 1s ease 0.2s;
     -moz-transition: all 1s ease 0.2s;
     -o-transition: all 1s ease 0.2s;
     transition: all 1s ease 0.2s; }
   .home-tile.map .afg-title {
     position: absolute;
-    background-color: #97bead;
+    background-color: #b4a0a9;
     top: 16px; }
   .home-tile.map h3 {
     color: #333;
@@ -7657,18 +7544,18 @@ ol li:before {
 /* Afg - Side Menu */
 #sidebar-wrapper {
   padding-top: 50px;
-  background-color: #29403e; }
+  background-color: #3a2e2f; }
   #sidebar-wrapper .sidebar-nav {
     top: 50px; }
     #sidebar-wrapper .sidebar-nav li {
       line-height: 50px;
-      background-color: #305a52;
+      background-color: #503a3e;
       margin-bottom: 1px;
       font-family: 'Roboto';
       font-size: 14px; }
       #sidebar-wrapper .sidebar-nav li.active a {
         color: #e0e9f0;
-        background-color: #3a7f70;
+        background-color: #6e4a52;
         position: relative; }
         #sidebar-wrapper .sidebar-nav li.active a:before {
           content: '';
@@ -7679,11 +7566,11 @@ ol li:before {
           left: 0;
           top: 0; }
         #sidebar-wrapper .sidebar-nav li.active a:hover, #sidebar-wrapper .sidebar-nav li.active a:active, #sidebar-wrapper .sidebar-nav li.active a:focus, #sidebar-wrapper .sidebar-nav li.active a:visited {
-          background-color: #3a7f70; }
+          background-color: #6e4a52; }
       #sidebar-wrapper .sidebar-nav li a {
         color: #e0e9f0; }
         #sidebar-wrapper .sidebar-nav li a:hover, #sidebar-wrapper .sidebar-nav li a:active, #sidebar-wrapper .sidebar-nav li a:focus, #sidebar-wrapper .sidebar-nav li a:visited {
-          background-color: #3a7f70; }
+          background-color: #6e4a52; }
   #sidebar-wrapper .sidebar-nav.fx-ul-right {
     top: 350px; }
 
