@@ -5394,7 +5394,7 @@ input[type="button"]::-moz-focus-inner {
   top: 0;
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -90px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -90px 0;
   background-size: 150px 30px; }
 
 .fx-catalog-mod-timerseries {
@@ -5493,6 +5493,68 @@ fieldset {
   border: 0; }
   fieldset .fx-fieldset-subtitle label {
     font-size: 12px; }
+
+/* Fenix Filter Tab */
+[data-plugin="filter"] .btn {
+  width: 150px; }
+[data-plugin="filter"] .fx-catalog-modular-form-holder {
+  border-color: transparent;
+  position: relative; }
+  [data-plugin="filter"] .fx-catalog-modular-form-holder:before {
+    content: '';
+    height: 1px;
+    width: calc(100% + 30px);
+    display: block;
+    background-color: #dddddd;
+    position: relative;
+    top: -13px;
+    left: -23px; }
+[data-plugin="filter"] .jstree-holder {
+  height: 100px; }
+[data-plugin="filter"] .fx-catalog-modular-form-label {
+  font-size: 14px;
+  left: 0; }
+[data-plugin="filter"] input[type="search"] {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  border-radius: 0;
+  height: 20px;
+  margin-bottom: 3px;
+  position: absolute;
+  top: -27px;
+  width: 70%;
+  right: 25px;
+  background-color: transparent;
+  border: 1px solid #d8d8d8; }
+[data-plugin="filter"] form {
+  position: relative; }
+  [data-plugin="filter"] form:before {
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    top: -23px;
+    left: calc(100% - 17px);
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #d8d8d8; }
+[data-plugin="filter"] .fx-filter-form-module.fit {
+  width: 100%; }
 
 .inside-full-height {
   /*
@@ -5630,6 +5692,58 @@ input[type=text]::-ms-clear {
   /* Internet Explorer 10+ */
   opacity: .5; }
 
+/*iOS switch like */
+.toggle-wrapper .toggle-text {
+  display: inline-block;
+  color: #999999;
+  font-size: 10px;
+  margin: 0;
+  position: relative;
+  top: -5px;
+  left: 2px; }
+.toggle-wrapper input[data-type="switch"] + label {
+  display: inline-block;
+  position: relative;
+  box-shadow: inset 0 0 0px 1px #d5d5d5;
+  text-indent: -5000px;
+  height: 15px;
+  width: 25px;
+  border-radius: 15px; }
+.toggle-wrapper input[data-type="switch"] + label:before {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+  background: rgba(19, 191, 17, 0);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+.toggle-wrapper input[data-type="switch"] + label:after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 15px;
+  width: 15px;
+  top: 0;
+  left: 0px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.2);
+  -moz-transition: .25s ease-in-out;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+.toggle-wrapper input[data-type="switch"]:checked + label:before {
+  width: 20px;
+  background: #13bf11;
+  border-width: 0; }
+.toggle-wrapper input[data-type="switch"]:checked + label:after {
+  left: 10px;
+  box-shadow: inset 0 0 0 1px #13bf11, 0 2px 4px rgba(0, 0, 0, 0.2); }
+
 /* Fenix - Labels Component */
 label {
   font: normal normal 300 12px/normal "Roboto"; }
@@ -5643,6 +5757,57 @@ legend {
   legend label {
     font-size: 12px;
     cursor: pointer; }
+
+/* Metadata Viewer */
+.fx-md-viewer-wrapper {
+  font-size: 12px; }
+  .fx-md-viewer-wrapper .fx-md-viewer-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 18px; }
+  .fx-md-viewer-wrapper .fx-md-viewer-container {
+    width: 100%; }
+  .fx-md-viewer-wrapper th, .fx-md-viewer-wrapper td {
+    border-bottom: 1px solid #e5e5e5;
+    height: 25px;
+    padding: 5px 0; }
+  .fx-md-viewer-wrapper .treegrid-expander {
+    top: 3px;
+    cursor: pointer; }
+  .fx-md-viewer-wrapper .metadata-viewer-title {
+    width: 30%;
+    font-size: 12px;
+    font: normal normal 300 12px/normal "Roboto";
+    font-weight: 500;
+    padding-right: 25px;
+    cursor: pointer; }
+    .fx-md-viewer-wrapper .metadata-viewer-title .fx-md-viewer-description {
+      top: 3px;
+      cursor: pointer;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+    .fx-md-viewer-wrapper .metadata-viewer-title:hover .fx-md-viewer-description {
+      opacity: 1;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s; }
+  .fx-md-viewer-wrapper .metadata-viewer-value {
+    width: 70%;
+    font: normal normal 300 12px/normal "Roboto";
+    font-size: 12px; }
+  .fx-md-viewer-wrapper .popover-title {
+    background-color: transparent;
+    font: normal normal 300 12px/normal "Roboto"; }
+    .fx-md-viewer-wrapper .popover-title .text-info {
+      color: #db514b; }
+  .fx-md-viewer-wrapper .popover-content {
+    font: normal normal 300 12px/normal "Roboto"; }
 
 /* Fenix - Modular Form Component */
 .fx-catalog-modular-form-holder {
@@ -5682,7 +5847,7 @@ legend {
   top: 7px;
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -15px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -15px 0;
   background-size: 150px 30px;
   cursor: pointer; }
 
@@ -5692,7 +5857,7 @@ legend {
   right: 7px;
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -45px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -45px 0;
   background-size: 150px 30px;
   cursor: pointer; }
 
@@ -5702,7 +5867,7 @@ legend {
   right: 28px;
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -30px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -30px 0;
   background-size: 150px 30px;
   cursor: pointer; }
 
@@ -5840,44 +6005,44 @@ div[data-module="sector"] .fx-catalog-modular-form-content {
 .fx-panel-plus {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -90px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -90px 0;
   background-size: 150px 30px; }
 
 .fx-panel-minus {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -90px -15px;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -90px -15px;
   background-size: 150px 30px; }
 
 .fx-panel-info {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat 0 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat 0 0;
   background-size: 150px 30px;
   float: right; }
 
 .fx-panel-required {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -15px -15px;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -15px -15px;
   background-size: 150px 30px; }
 
 .fx-panel-ok {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -45px -15px;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -45px -15px;
   background-size: 150px 30px; }
 
 .fx-panel-remove {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -60px -15px;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -60px -15px;
   background-size: 150px 30px; }
 
 .fx-panel-refresh {
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -75px -15px;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -75px -15px;
   background-size: 150px 30px; }
 
 .metadata-container .btn {
@@ -6116,7 +6281,7 @@ input[type="checkbox"]:checked + label {
   display: inline-block;
   height: 15px;
   width: 15px;
-  background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -45px 0;
+  background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -45px 0;
   background-size: 150px 30px;
   cursor: pointer;
   position: relative;
@@ -6333,7 +6498,12 @@ input[type="checkbox"]:checked + label {
       color: #333;
       font-weight: 500;
       font-size: 12px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      border-color: transparent; }
+      .fx-tabs .nav-tabs > li > a:hover, .fx-tabs .nav-tabs > li > a:focus {
+        border-color: transparent;
+        background-color: transparent;
+        color: #db514b; }
       .fx-tabs .nav-tabs > li > a:before {
         -webkit-transition: all 0.3s ease 0s;
         -moz-transition: all 0.3s ease 0s;
@@ -6362,6 +6532,10 @@ input[type="checkbox"]:checked + label {
         -ms-transform: scaleX(0.8);
         -webkit-transform: scaleX(0.8);
         transform: scaleX(0.8); }
+      .fx-tabs .nav-tabs > li.active > a:hover, .fx-tabs .nav-tabs > li.active > a:focus {
+        border-color: transparent;
+        background-color: transparent;
+        color: #db514b; }
 .fx-tabs .tab-content {
   padding-top: 10px; }
   .fx-tabs .tab-content > div {
@@ -6593,7 +6767,7 @@ input[type="checkbox"]:checked + label {
     position: absolute;
     height: 15px;
     width: 15px;
-    background: url("../submodules/fenix-ui-common/css/img/fenix-catalog-sprite-small.svg") no-repeat -15px 0;
+    background: url("../submodules/fenix-ui-common//css/img/fenix-catalog-sprite-small.svg") no-repeat -15px 0;
     background-size: 150px 30px;
     top: 3px;
     left: 12px; }
@@ -7163,6 +7337,10 @@ input[type="checkbox"]:checked + label {
   color: #333;
   font-weight: 300;
   font-style: normal; }
+.jstree-default .jstree-node:not(.jstree-open) {
+  position: relative; }
+  .jstree-default .jstree-node:not(.jstree-open) .jstree-wholerow {
+    height: 100%; }
 
 .jstree-default .jstree-themeicon {
   display: none;
@@ -7170,7 +7348,7 @@ input[type="checkbox"]:checked + label {
 
 .jstree-default .jstree-node,
 .jstree-default .jstree-icon {
-  background-image: url("../submodules/fenix-ui-common//css/img/treejs-32px.png"); }
+  background-image: url("../submodules/fenix-ui-common//css/img/treejs-32px.svg"); }
 
 .jstree-default .jstree-wholerow-clicked {
   background: none;
@@ -7179,6 +7357,23 @@ input[type="checkbox"]:checked + label {
 .jstree-default .jstree-wholerow-hovered {
   background: none;
   background-color: #eca3a0; }
+
+.jstree-default .jstree-disabled.jstree-clicked {
+  background: none;
+  background-color: #f5cccb; }
+
+.jstree-container-ul .jstree-anchor {
+  white-space: normal;
+  height: auto;
+  width: 90%; }
+.jstree-container-ul [role="group"].jstree-children [role='treeitem'] {
+  position: relative; }
+
+li[role="treeitem"]:nth-child(odd) {
+  background-color: #f2f2f2 !important; }
+
+ul[role="group"] {
+  background-color: white; }
 
 /* Packery _ Fenix */
 /* clearfix */
