@@ -7538,6 +7538,12 @@ ul[role="group"] {
     font-size: 33px;
     color: #333;
     margin-top: 10px; }
+  .home-content .card-sssai {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    width: 130px;
+    height: auto; }
   .home-content .country-welcome {
     padding-bottom: 100px; }
   .home-content .home-detail-pointer {
@@ -7903,7 +7909,7 @@ hr {
     float: left;
     margin-right: 10px; }
   .brand-logo h4 {
-    font-size: 10px;
+    font-size: 14px;
     color: #FFF;
     font-family: 'Roboto';
     font-weight: 500;
@@ -7921,7 +7927,7 @@ hr {
     width: 50%;
     display: inline-block;
     position: relative;
-    font-size: 8px;
+    font-size: 10px;
     color: #FFF;
     font-family: 'Roboto';
     font-weight: 300;
