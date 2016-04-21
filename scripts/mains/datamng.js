@@ -71,6 +71,7 @@ require([
                     'fx-menu/templates': '../../scripts/templates',
 
 
+                    'fx-common/config/auth_users': "../../config/auth_users.json",
 
                     'fx-d-m/config/config': '../../config/submodules/datamng/config',
                     'fx-cat-br/config/config': '../../config/submodules/catalog/config',

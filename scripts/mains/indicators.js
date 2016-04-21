@@ -37,6 +37,7 @@ require([
 
                     'host/config' : '../../config/config',
                     'fx-menu/templates': '../../scripts/templates',
+                    'fx-common/config/auth_users': "../../config/auth_users.json",
 
                     'fx-submodules/config/baseConfig': '../../config/submodules/config_base'
                 },
