@@ -52,13 +52,24 @@ background-color: $afg-home-background;
 
   }
 
-  .card-sssai{
+  .card-marndr{
     position: absolute;
     top: 45px;
-    right:0;
+    right:15px;
+    width: 85px;
+    height: auto;
+    cursor: pointer;
+  }
+
+  .card-sssai{
+    position: relative;
+    top: -15px;
     width: 130px;
     height: auto;
+    left: -5px;
+    cursor: pointer;
   }
+
 
   .country-welcome{
     padding-bottom: 100px;
@@ -104,6 +115,7 @@ background-color: $afg-home-background;
       font-weight: 100;
       position: absolute;
       top: 0;
+      padding: 0 0 0 90px;
     }
 
 
@@ -347,4 +359,12 @@ ol li:before {
 .home-tile.aims{
   background-color: white;
 
+}
+
+.country-flag{
+  width: auto;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 10px;
 }
