@@ -1,6 +1,6 @@
 {
         "get": {
-			"url" : "http://fenix.fao.org/d3s/msd/resources/metadata/uid/version?full=true",
+			"url" : "http://fenixservices.fao.org/d3s/msd/resources/metadata/uid/version?full=true",
             "type" : "get",
             "response": {
                 "addedEntitites":["dsd"],
@@ -8,7 +8,7 @@
             }
         },
        "create": {
-           "url" : "http://fenix.fao.org/d3s/msd/resources/metadata",
+           "url" : "http://fenixservices.fao.org/d3s/msd/resources/metadata",
            "type": "post",
            "content": "json",
            "response": {
@@ -16,7 +16,7 @@
            }
         },
         "overwrite": {
-            "url" : "http://fenix.fao.org/d3s/msd/resources/metadata",
+            "url" : "http://fenixservices.fao.org/d3s/msd/resources/metadata",
             "type" : "put",
             "content": "json",
             "response": {

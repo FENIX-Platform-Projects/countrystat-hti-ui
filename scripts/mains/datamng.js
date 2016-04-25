@@ -69,6 +69,7 @@ require([
 
                     pnotify: '{FENIX_CDN}/js/pnotify/2.0.1/pnotify.custom.min',
                     'fx-menu/templates': '../../scripts/templates',
+                    'packery': '{FENIX_CDN}/js/packery/1.4.3/dist/packery.pkgd.min',
 
 
                     'fx-common/config/auth_users': "../../config/auth_users.json",

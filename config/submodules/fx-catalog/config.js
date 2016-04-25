@@ -18,7 +18,7 @@ define(['jquery', 'fx-submodules/config/baseConfig'],
         $.extend(services, config_base);
 
         services.CATALOG_BLANK_FILTER = 'config/submodules/fx-catalog/blank-filter.json';
-        services.SERVICE_BASE_ADDRESS = "http://fenix.fao.org/d3s/msd";
+        services.SERVICE_BASE_ADDRESS = "http://fenixservices.fao.org/d3s/msd";
 
 
         return services;

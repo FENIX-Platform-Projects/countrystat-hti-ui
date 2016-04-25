@@ -59,6 +59,7 @@ require([
 
                 'host/config' : '../../config/config',
                 'fx-menu/templates': '../../scripts/templates',
+                'packery': '{FENIX_CDN}/js/packery/1.4.3/dist/packery.pkgd.min',
 
 
                 //Components configuration
